@@ -1,7 +1,6 @@
 import { getData } from "@/service/get_data";
 import Card from "./components/card";
 import getColors from "@/service/constands/filter_colors"
-import { Suspense } from 'react'
 
 /**
  * main page of the app (<main> html tag). The root ("/") path of the app 
@@ -19,16 +18,14 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         {data.map((house: any, i: number) => {
-          return (
-          <Suspense>
+          return ( 
             <Card 
             key={i} 
             id={house.id} 
             houseName={house.name} 
             houseAnimal={house.animal} 
             houseColors={colors[i]} 
-            houseFounder={house.founder}/>
-          </Suspense>)
+            houseFounder={house.founder}/>)
         })}
     </main>
   );

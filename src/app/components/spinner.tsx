@@ -9,7 +9,7 @@ export default function Spinner() {
     return(
         <div className="flex items-center justify-center min-h-screen">
             <CircleLoader
-            color="#9510b8"
+            color="rgb(var(--spinner-color))"
             loading
             speedMultiplier={0.7} />
         </div>
