@@ -24,7 +24,7 @@ export default async function Card(
         
     return (
     <>
-        <div key={id} className="flex flex-col items-center bg-[rgb(var(--main-color))] w-3/12 min-w-64 p-2 px-4 rounded-md drop-shadow-md">
+        <div key={id} className="flex flex-col items-center bg-[rgb(var(--main-color))] w-3/12 min-w-64 p-2 px-4 mb-2 rounded-md drop-shadow-md">
             <div className="flex items-center w-full my-2">
                 <span className="width-50-p font-bold text-lg">
                 <h3>{ houseName }</h3>
