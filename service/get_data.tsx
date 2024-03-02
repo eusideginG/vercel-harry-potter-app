@@ -6,7 +6,7 @@ import { resolve } from "path";
  */
 export const getData = async () => {
     // a timeoute for the spinner 
-    // await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 2000));
 
     try {
         const url: string | undefined = process.env.API_URL;
