@@ -1,6 +1,6 @@
 import { getData } from "@/service/get_data";
-import Card from "./components/card";
-import getColors from "@/service/constands/filter_colors"
+import Card from "./components/card/card";
+import getColors from "@/service/filter_colors"
 
 /**
  * main page of the app (<main> html tag). The root ("/") path of the app 
