@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 /**
- * 
+ *
  * @param param0 content (React.ReactNode type) of the html body tag
  * @returns the static html of the application
  */
