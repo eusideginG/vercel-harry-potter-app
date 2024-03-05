@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { CircleLoader } from "react-spinners";
 
 /**

@@ -1,3 +1,4 @@
+"use client"
 import MainSpinner from "./components/CircleLoaderSpinner";
 
 /**
