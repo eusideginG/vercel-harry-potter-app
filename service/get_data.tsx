@@ -17,7 +17,7 @@ export const getData = async () => {
     if (!res.ok) {
         throw new Error("Faild to fetch the data");
     }
-    
+    await new Promise(resolve => setTimeout(resolve, 4000));
     return res.json()
     } catch (error) {
         console.error(error);
